@@ -1,0 +1,9 @@
+
+::root {
+    --clr-main: #000000;
+    --clr-alt: #808DDD;
+}
+
+body {
+    background-color: black;
+}
