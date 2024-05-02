@@ -5,13 +5,13 @@ app = Flask(__name__)
 
 # Not implemented
 @app.route("/")
-def test():
+def home():
     return render_template("index.html")
 
 
 # Not implemented
 @app.route("/team")
-def test2():
+def team():
     return render_template("team.html")
 
 

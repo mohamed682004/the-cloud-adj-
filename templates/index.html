@@ -6,7 +6,18 @@
     <link rel="stylesheet" href="{{url_for('static', filename = 'main.css')}}">
 </head>
 <body>
-    <h1>This is our project</h1>
-    <p>Know the pain</p>
+    <section class="home">
+        <div class="intro">
+            <h1>Cloud Team</h1>
+            <p class="description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt suscipit mollitia possimus itaque delectus neque quaerat esse ipsa autem?
+                Commodi recusandae adipisci sapiente cupiditate eos blanditiis consequatur mollitia cumque nesciunt!
+            </p>
+            <a href="/team">Team Page</a>
+        </div>
+        <div class="image-container">
+            <img src="{{url_for('static', filename = 'imgs/cloud-computing.svg')}}" alt="docker image">
+        </div>
+    </section>
 </body>
 </html>
