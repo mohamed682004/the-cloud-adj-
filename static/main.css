@@ -78,12 +78,14 @@ a:hover {
     .intro .description {
         max-width: 700px;
     }
+    .intro a {
+        margin-inline: auto;
+    }
 }
 
 .home .image-container {
     flex-grow: 1;
     max-width: 800px;
-    min-width: 600px;
     overflow: hidden;
 }
 
